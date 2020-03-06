@@ -38,4 +38,9 @@ public class MainActivity extends AppCompatActivity {
 		Intent intent = new Intent(this, ExerciseActivity.class);
 		startActivityForResult(intent, 1);
     }
+
+    public void handleFastAdapterButton(View view) {
+		Intent intent = new Intent(this, FastAdapterActivity.class);
+		startActivityForResult(intent, 1);
+    }
 }
